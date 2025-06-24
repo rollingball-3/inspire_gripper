@@ -91,12 +91,10 @@
             </collision>
         </link>
         
-        <joint name="gripper_joint1" type="revolute">
+        <joint name="gripper_joint1" type="fixed">
             <origin xyz="0 -0.04 0.09" rpy="0.8663 0 0" />
             <parent link="gripper_base_link" />
             <child link="gripper_Link1" />
-            <axis xyz="1 0 0" />
-            <limit lower="${joint_lower_bound}" upper="${joint_upper_bound}" effort="100" velocity="1" />
         </joint>
         
         <link name="gripper_Link2">
@@ -122,12 +120,10 @@
             </collision>
         </link>
         
-        <joint name="gripper_joint2" type="revolute">
+        <joint name="gripper_joint2" type="fixed">
             <origin xyz="0 0.022341 0.035565" rpy="-0.8663 0 0" />
             <parent link="gripper_Link1" />
             <child link="gripper_Link2" />
-            <axis xyz="-1 0 0" />
-            <limit lower="${joint_lower_bound}" upper="${joint_upper_bound}" effort="100" velocity="1" />
         </joint>
         
         <link name="gripper_Link3">
@@ -153,12 +149,10 @@
             </collision>
         </link>
         
-        <joint name="gripper_joint3" type="revolute">
+        <joint name="gripper_joint3" type="fixed">
             <origin xyz="0 0.04 0.09" rpy="-0.8663 0 0" />
             <parent link="gripper_base_link" />
             <child link="gripper_Link3" />
-            <axis xyz="-1 0 0" />
-            <limit lower="${joint_lower_bound}" upper="${joint_upper_bound}" effort="100" velocity="1" />
         </joint>
         
         <link name="gripper_Link4">
@@ -184,12 +178,10 @@
             </collision>
         </link>
         
-        <joint name="gripper_joint4" type="revolute">
+        <joint name="gripper_joint4" type="fixed">
             <origin xyz="0 -0.022341 0.035565" rpy="0.8663 0 0" />
             <parent link="gripper_Link3" />
             <child link="gripper_Link4" />
-            <axis xyz="1 0 0" />
-            <limit lower="${joint_lower_bound}" upper="${joint_upper_bound}" effort="100" velocity="1" />
         </joint>
         
         <!-- gripper tip virtual link -->
