@@ -18,7 +18,7 @@
             <visual>
                 <origin xyz="0 0 0" rpy="0 0 0" />
                 <geometry>
-                    <mesh filename="package://inspire_description/meshes/camera_connect.STL" />
+                    <mesh filename="file://$(find inspire_description)/meshes/camera_connect.STL" />
                 </geometry>
                 <material name="">
                     <color rgba="0.79216 0.81961 0.93333 1" />
@@ -27,7 +27,7 @@
             <collision>
                 <origin xyz="0 0 0" rpy="0 0 0" />
                 <geometry>
-                    <mesh filename="package://inspire_description/meshes/camera_connect.STL" />
+                    <mesh filename="file://$(find inspire_description)/meshes/camera_connect.STL" />
                 </geometry>
             </collision>
         </link>
@@ -48,7 +48,7 @@
             <visual>
                 <origin xyz="0 0 0" rpy="0 0 0" />
                 <geometry>
-                    <mesh filename="package://inspire_description/meshes/gripper_base_link.STL" />
+                    <mesh filename="file://$(find inspire_description)/meshes/gripper_base_link.STL" />
                 </geometry>
                 <material name="">
                     <color rgba="0.79216 0.81961 0.93333 1" />
@@ -57,7 +57,7 @@
             <collision>
                 <origin xyz="0 0 0" rpy="0 0 0" />
                 <geometry>
-                    <mesh filename="package://inspire_description/meshes/gripper_base_link.STL" />
+                    <mesh filename="file://$(find inspire_description)/meshes/gripper_base_link.STL" />
                 </geometry>
             </collision>
         </link>
@@ -77,7 +77,7 @@
             <visual>
                 <origin xyz="0 0 0" rpy="0 0 0" />
                 <geometry>
-                    <mesh filename="package://inspire_description/meshes/gripper_Link1.STL" />
+                    <mesh filename="file://$(find inspire_description)/meshes/gripper_Link1.STL" />
                 </geometry>
                 <material name="">
                     <color rgba="0.79216 0.81961 0.93333 1" />
@@ -86,7 +86,7 @@
             <collision>
                 <origin xyz="0 0 0" rpy="0 0 0" />
                 <geometry>
-                    <mesh filename="package://inspire_description/meshes/gripper_Link1.STL" />
+                    <mesh filename="file://$(find inspire_description)/meshes/gripper_Link1.STL" />
                 </geometry>
             </collision>
         </link>
@@ -108,7 +108,7 @@
             <visual>
                 <origin xyz="0 0 0" rpy="0 0 0" />
                 <geometry>
-                    <mesh filename="package://inspire_description/meshes/gripper_Link2.STL" />
+                    <mesh filename="file://$(find inspire_description)/meshes/gripper_Link2.STL" />
                 </geometry>
                 <material name="">
                     <color rgba="0.79216 0.81961 0.93333 1" />
@@ -117,7 +117,7 @@
             <collision>
                 <origin xyz="0 0 0" rpy="0 0 0" />
                 <geometry>
-                    <mesh filename="package://inspire_description/meshes/gripper_Link2.STL" />
+                    <mesh filename="file://$(find inspire_description)/meshes/gripper_Link2.STL" />
                 </geometry>
             </collision>
         </link>
@@ -139,7 +139,7 @@
             <visual>
                 <origin xyz="0 0 0" rpy="0 0 0" />
                 <geometry>
-                    <mesh filename="package://inspire_description/meshes/gripper_Link3.STL" />
+                    <mesh filename="file://$(find inspire_description)/meshes/gripper_Link3.STL" />
                 </geometry>
                 <material name="">
                     <color rgba="0.79216 0.81961 0.93333 1" />
@@ -148,7 +148,7 @@
             <collision>
                 <origin xyz="0 0 0" rpy="0 0 0" />
                 <geometry>
-                    <mesh filename="package://inspire_description/meshes/gripper_Link3.STL" />
+                    <mesh filename="file://$(find inspire_description)/meshes/gripper_Link3.STL" />
                 </geometry>
             </collision>
         </link>
@@ -170,7 +170,7 @@
             <visual>
                 <origin xyz="0 0 0" rpy="0 0 0" />
                 <geometry>
-                    <mesh filename="package://inspire_description/meshes/gripper_Link4.STL" />
+                    <mesh filename="file://$(find inspire_description)/meshes/gripper_Link4.STL" />
                 </geometry>
                 <material name="">
                     <color rgba="0.79216 0.81961 0.93333 1" />
@@ -179,7 +179,7 @@
             <collision>
                 <origin xyz="0 0 0" rpy="0 0 0" />
                 <geometry>
-                    <mesh filename="package://inspire_description/meshes/gripper_Link4.STL" />
+                    <mesh filename="file://$(find inspire_description)/meshes/gripper_Link4.STL" />
                 </geometry>
             </collision>
         </link>
